@@ -71,3 +71,12 @@ version of my blog on `http://localhost:4000/phochste/` with the command:
 ```
 $ jekyll serve
 ```
+
+Next I needed to get this all up to GitHub. First I created over there
+a new repository named `phochste.github.io`. And on my laptop I run
+these commands:
+
+```
+$ git branch -M main
+$ git push -u origin main
+```
