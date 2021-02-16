@@ -82,6 +82,8 @@ a new repository named `phochste.github.io`. And on my laptop I run
 these commands:
 
 ```
+$ git add --all .
+$ git commit -m "Config changes"
 $ git branch -M main
 $ git push -u origin main
 ```
