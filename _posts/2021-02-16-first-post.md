@@ -65,8 +65,13 @@ $ cd phochste.github.io
 $ git remote set-url origin https://github.com/phochste/phochste.github.io.git
 ```
 
-I modified the `_config.yml` a bit to suit my needs and started a local
-version of my blog on `http://localhost:4000/phochste/` with the command:
+I modified the `_config.yml` a bit to suit my needs:
+
+* Changed `title` to my name
+* Set `baseurl` to an empty string
+* Commented out the `analytics` and `disqus-shortname`
+
+Next I started a local version of my blog on `http://localhost:4000/` with the command:
 
 ```
 $ jekyll serve
@@ -80,3 +85,5 @@ these commands:
 $ git branch -M main
 $ git push -u origin main
 ```
+
+And there it is: my blog at [https://phochste.github.io](https://phochste.github.io).
