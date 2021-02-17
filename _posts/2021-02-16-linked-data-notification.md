@@ -5,8 +5,9 @@ date: 2021-02-16
 ---
 
 [Linked Data Notifications](https://www.w3.org/TR/ldn/) [LDN] is a Social Web protocol
-to deliver notification messages to websites. These notifications can be shared
-and reused regardless how they were generated.
+created by [Sarven Capadisli](https://csarven.ca/) and a W3C Recommendation
+to pass notification messages to and from website. These messages can be referenced
+by a URL and be shared and reused in other applications.
 
 ![ldn]({{site.baseurl}}/assets/images/ldn20210217/04.png)
 
